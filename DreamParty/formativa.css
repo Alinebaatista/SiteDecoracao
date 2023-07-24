@@ -1,0 +1,118 @@
+
+body{
+    background-color:rgb(241, 234, 221);
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+  /*Menu*/
+  
+header{
+    background-color:#C677DD;
+    align-items: center;
+    margin:  auto;
+    padding: 30px;
+    height: 200px;
+ 
+  }
+
+  nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    }
+    
+  
+  nav#menu li{
+      display: inline-block;
+      padding-right: 15px;
+      padding-bottom: 20px;
+      padding-left: 30px;
+      margin: 0 auto;
+  }
+  
+  nav#menu{
+      display: block;
+      margin: 0 auto;
+  }
+  
+  nav#menu a{
+      color: black;
+      text-decoration:none;
+      align-items: center;
+      padding: 120px;
+      
+  }
+  
+  nav#menu a:hover{
+      color: white;
+      text-decoration: wavy;
+  }
+  
+  /*Tabela*/
+
+.logo{
+    white:450px;
+    height:425px;
+    margin-top: -120px;
+  
+  
+  }
+.img_ta{
+    border-radius: 4px;
+    border: 2px solid purple;
+}
+
+td{
+    padding: 10px;
+ 
+}
+
+/*imagens*/
+
+.icon{
+    height:20px;
+    width: 30px;  
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+
+}
+
+.midia{
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+/*botoes*/
+.btn {
+    background-color: rgb(179, 223, 236);
+    width: 70px;
+    height: 55px;
+    border-radius: 20px;
+    border-color: black;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(228, 120, 240);
+    transition: backgroun-color 1.5s;
+}
+
+footer{
+    background-color: rgb(168, 86, 161);
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
